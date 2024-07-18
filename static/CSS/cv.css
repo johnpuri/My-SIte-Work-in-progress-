@@ -1,0 +1,67 @@
+.navbar {
+  left: 10px ;
+}
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.alert {
+  font-weight: bold;
+  text-decoration: underline;
+    text-align: center;
+}
+.myUL {
+    padding-left: 0;
+    list-style-position: inside;
+}
+.a4-page {
+    background-color: beige;
+  max-width: 210mm;
+  max-height: calc(517mm - 50px); // subtract 5px from height
+  padding: 200mm;
+  margin: 0 auto 75px; // add bottom margin
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+  .a4-page {
+    border: 1px solid black;
+    border-top: 5px solid red;
+    margin-bottom: 5px; // keep margin for printing
+  }
+}
+#course-name {
+    font-weight:bold;
+    }
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 52%;
+    background-color: #0792e5;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: "Times New Roman", sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: "Times New Roman", sans-serif;
+	color: #ffffff;
+}
