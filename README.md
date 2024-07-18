@@ -35,7 +35,6 @@ pip install -r requirements.txt
 
 5. Run the Flask application \
 python app.py
-
 6. Open a web browser and go to `http://localhost:5000` 
 
 ## Usage
